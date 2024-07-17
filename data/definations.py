@@ -14,4 +14,5 @@ def show_about():
     messagebox.showinfo("Developer", "The OpenBibleTK Project\nCrazyRag778, Dibyojit Datta\nFully Open Source") 
 def open_pytbib_githbpg():
     webbrowser.open("https://github.com/avendesora/pythonbible")
-
+def open_projct_githbpg():
+    webbrowser.open("https://github.com/CrazyRag778/OpenBibleTk")

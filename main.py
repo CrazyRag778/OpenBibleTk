@@ -1,7 +1,6 @@
 from tkinter import ttk, Canvas, Scrollbar, messagebox
 from tkinter import *
 import pythonbible as bible
-from tkhtmlview import HTMLLabel
 from data.books import bible_books_list
 import webbrowser
 from data.definations import *
@@ -35,7 +34,7 @@ Open.add_command(label="Exit", command=root.quit)
 
 about.add_command(label="Developer", command=show_about) 
 about.add_command(label="PythonBible", command=open_pytbib_githbpg) 
-about.add_command(label="Github") 
+about.add_command(label="Github", command=open_projct_githbpg) 
 
 pref.add_command(label="Settings")
 
